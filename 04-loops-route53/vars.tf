@@ -42,3 +42,7 @@ variable "tags" {
     Component   = "MongoDB"
   }
 }
+
+variable "zone_id" {
+  default = "Z09747631QFAA460NOQBW"
+}
