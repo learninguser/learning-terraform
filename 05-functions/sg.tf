@@ -18,6 +18,6 @@ resource "aws_security_group" "allow_all" {
   }
 
   tags = {
-    Name = "terraform"
+    Terraform = true
   }
 }
