@@ -46,3 +46,7 @@ variable "tags" {
 variable "zone_id" {
   default = "Z09747631QFAA460NOQBW"
 }
+
+variable "domain_name" {
+  default = "learninguser.online"
+}
